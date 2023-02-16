@@ -135,6 +135,25 @@ nav>ul {
 
 }
 
+.extra-task {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+
+.extra-task img {
+    width: 100%;
+}
+
+.task {
+    border-left: 5px solid #FF900E;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #aaaaaa;
+    padding: 40px;
+    width: 60;
+}
+
 
 
 /* footer and sponsor style */
@@ -181,7 +200,8 @@ nav>ul {
 
     .team,
     .team-member,
-    .features {
+    .features,
+    .extra-task {
         grid-template-columns: repeat(1, 1fr);
     }
 
