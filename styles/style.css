@@ -126,6 +126,37 @@ nav>ul {
     width: 150px;
     height: 150px;
     text-align: center;
+    transition: background-color .5s ease, color .2s linear;
+}
+
+.icon:hover {
+    background-color: #FF900E;
+    color: #FFF4E7;
+
+}
+
+
+
+/* footer and sponsor style */
+.sponsor-title {
+    text-align: center;
+}
+
+.sponsor {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.notice {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #FFF4E7;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 100px;
 }
 
 
@@ -134,7 +165,8 @@ nav>ul {
 @media screen and (max-width: 576px) {
 
     nav,
-    .all-icon {
+    .all-icon,
+    .sponsor {
         flex-direction: column;
         align-items: center;
     }
